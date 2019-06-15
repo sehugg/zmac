@@ -1,0 +1,5 @@
+*.o
+*~
+zout
+zmac
+doc
