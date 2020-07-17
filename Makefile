@@ -1,8 +1,8 @@
 # On Mac OSX gcc is required as clang complains bitterly about the old style
 # C delarations used.
 
-CC=gcc -O2
-CXX=g++
+CFLAGS=-O2
+
 DEP=zmac.o mio.o doc.o zi80dis.o
 
 zmac: doc.inl $(DEP)
